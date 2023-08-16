@@ -1,0 +1,4 @@
+Docker commands
+---------------
+docker build -t bookshelf-api-image .
+docker run -dp 5000:5000 bookshelf-api-image
